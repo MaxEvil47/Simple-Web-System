@@ -3,3 +3,5 @@
 
  This web system was created as the final project for college, researching as to why most if not all web systems are private, as well as studying its
  development and functionality as a single student/dev.
+
+Be aware, all the code is written IN SPANISH, since I'm a Chilean student, but that may change eventually.
