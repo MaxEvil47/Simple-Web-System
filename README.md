@@ -5,3 +5,5 @@
  development and functionality as a single student/dev.
 
 Be aware, all the code is written IN SPANISH, since I'm a Chilean student, but that may change eventually.
+
+The database used in the system is localhost for various reasons, hence why it doesn't have a web deployment, though that can be changed easily in the code.
