@@ -2,7 +2,7 @@
  Simple Web System, created with HTML, PHP and SQL to recolect and store data obtained via forms in a database.
 
  This web system was created as the final project for college, researching as to why most if not all web systems are private, as well as studying its
- development and functionality as a single student/dev.
+ development and functionality as a single student/dev, trying to make an open source simple web system.
 
 Be aware, all the code is written IN SPANISH, since I'm a Chilean student, but that may change eventually.
 
