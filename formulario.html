@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Proyecto Mejora</title>
+    </head>
+
+    <body>
+        <br><br>
+
+        <form name="datosEmpleado" method="post" action="DatosEmpleados.php"> <br>
+
+            <table border="2" align="center">
+
+                <caption>Datos del empleado<br>Para consultar, solo es necesario el RUT del empleado<br>Para crear un documento de feriados, has clic <a href="vacaciones.php">aca</a></caption>
+            
+                <tr>
+                    <td>Ingresa el nombre del empleado</td>
+                    <td><input type="text" name="nombreEmp" size="40" maxlength="100" placeholder="Nombre del empleado"></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa los apellidos del empleado</td>
+                    <td><input type="text" name="apellidoEmp" size="40" maxlength="100" placeholder="Paterno y Materno"></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa el rut del empleado</td>
+                    <td><input type="text" name="rutEmp" size="40" maxlength="25" placeholder="Sin puntos y con guion"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="Ingresar" value="Ingresar">
+                        <input type="submit" name="Consultar" value="Consultar">
+                        <input type="reset" name="Cancelar" value="Cancelar">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </body>
+
+</html>

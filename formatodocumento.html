@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Formato Documento</title>
+    </head>
+
+    <style>
+
+        .logoContainer
+        {
+            display: flex;
+            margin-left: 0%;
+        }
+
+        #logoleft
+        {
+            padding-right: 20px;
+        }
+
+    </style>
+
+    <body>
+
+        <div class="logoContainer">
+
+            <div class="logoleft" align="left">
+
+                <img src="logo1.png">
+    
+            </div>
+    
+            <div class="logoright" align="right">
+    
+                <img src="logo1.png">
+
+            </div>
+
+        </div>
+
+        <div class="textContainer">
+
+            <div class="text" align="center">
+                printf( "El empleado %s %s con rut %s tiene 5 dias libres, contando desde hoy " . date('d-m-Y', strtotime('now')) . " 
+                hasta el termino de " . date('d-m-Y', strtotime($date. '+ 5 days')) . ".", $row["nombre"], $row["apellido"], $row["rut"])
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
