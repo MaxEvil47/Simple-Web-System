@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Proyecto Mejora</title>
+    </head>
+
+    <body>
+        <br><br>
+
+        <form name="datosInventario" method="post" action="DatosInventario.php"> <br>
+
+            <table border="2" align="center">
+
+                <caption>Ingresos de producto<br>Para consultar y generar un documento del inventario completo<br>presione <a href="conInv.php">aqui</a></caption>
+            
+                <tr>
+                    <td>Ingresa el nombre del producto</td>
+                    <td><input type="text" name="nombrePro" size="40" maxlength="100" placeholder="Nombre del producto"></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa el codigo del producto</td>
+                    <td><input type="text" name="codigoPro" size="40" maxlength="100" placeholder="Codigo del producto"></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa la cantidad del producto</td>
+                    <td><input type="text" name="cantidadPro" size="40" maxlength="25" placeholder="Cantidad del producto"></td>
+                </tr>
+
+                <tr>
+                    <td>Ingresa el proveedor del producto</td>
+                    <td><input type="text" name="proveedorPro" size="40" maxlength="25" placeholder="Nombre del proveedor"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="Ingresar" value="Ingresar">
+                        <input type="reset" name="Cancelar" value="Cancelar">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </body>
+
+</html>
