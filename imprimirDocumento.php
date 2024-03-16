@@ -10,7 +10,7 @@
         require_once("documentoplano.php");
         $html = ob_get_clean();
     
-        $documento = new Html2Pdf('P', 'A4', 'es', 'true', 'UTF-8');
+        $documento = new Html2Pdf('P', 'A4', 'es', true, 'UTF-8');
         $documento->writeHTML($html);
         $documento->output('Documento Feriado ' . $rutEmp . " " . $date . '.pdf');
     }
